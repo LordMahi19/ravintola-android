@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Ravintola</string>
+    <string name="app_tagline">Gourmet Pizza &amp; Kebabs</string>
+    
+    <!-- Navigation -->
+    <string name="title_menu">Menu</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_profile">Profile</string>
+    
+    <!-- Auth Screen Strings -->
+    <string name="heading_login">Welcome Back</string>
+    <string name="heading_register">Create Account</string>
+    <string name="subheading_login">Login to your gourmet restaurant experience</string>
+    <string name="subheading_register">Join us and experience the finest taste</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="btn_guest">Continue as Guest</string>
+    <string name="prompt_dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="prompt_already_have_account">Already have an account? Sign In</string>
+    
+    <!-- Custom Pizza Screens -->
+    <string name="heading_custom_pizza">Build Your Own Pizza</string>
+    <string name="subheading_custom_pizza">Choose size, sauce and premium toppings</string>
+    <string name="btn_build_your_own">Build Your Pizza</string>
+    <string name="pizza_size_8">Small (8\") - $8.00</string>
+    <string name="pizza_size_10">Medium (10\") - $10.00</string>
+    <string name="pizza_size_12">Large (12\") - $12.00</string>
+    <string name="heading_pizza_size">1. Select Size</string>
+    <string name="heading_pizza_toppings">2. Choose Free &amp; Premium Toppings</string>
+    
+    <!-- Cart Screen Strings -->
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="cart_empty_sub">Add items from the menu to start your order</string>
+    <string name="btn_place_order">Place Order</string>
+    <string name="txt_total">Total Price:</string>
+    <string name="order_placed_success">Order placed successfully!</string>
+    
+    <!-- Profile Screen Strings -->
+    <string name="btn_logout">Log Out</string>
+    <string name="txt_guest_user">Guest Customer</string>
+    <string name="txt_member_since">Member since %s</string>
+    <string name="prompt_auth_required">Sign in to view your profile and order history</string>
+    
+    <!-- Orders History -->
+    <string name="orders_empty">No order history found</string>
+    <string name="orders_empty_sub">Place an order to see its status here</string>
+    <string name="txt_order_id">Order #%d</string>
+    <string name="txt_items_count">%d items</string>
+    
+    <!-- Detail & Extras -->
+    <string name="btn_add_to_cart">Add to Cart</string>
+    <string name="txt_added_to_cart">Added to cart!</string>
+    <string name="txt_base_price">Base Price: $%s</string>
+    <string name="txt_category">Category: %s</string>
+    <string name="txt_diet">Diet: %s</string>
+</resources>
