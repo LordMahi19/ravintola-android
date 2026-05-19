@@ -326,34 +326,6 @@ The entire backend and data layers are hosted on state-of-the-art cloud platform
 
 ## Step-by-Step System Setup
 
-### Part A: Running the Backend Locally (Optional)
-
-1.  **Navigate to the server directory**:
-    ```bash
-    cd ravintola/server
-    ```
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
-3.  **Configure environment values**:
-    Create a file named `.env` in `ravintola/server/` and fill in your connection info:
-    ```env
-    PORT=5000
-    DATABASE_URL=postgres://<username>:<password>@localhost:5432/ravintola
-    JWT_SECRET=your_jwt_secret_key_here
-    ```
-4.  **Seed the local DB** (Ensure PostgreSQL is running and you created the DB named `ravintola`):
-    ```bash
-    psql -d ravintola -f db/schema.sql
-    ```
-5.  **Run in Development Mode**:
-    ```bash
-    npm run dev
-    ```
-
-### Part B: Running the Android App in Android Studio
-
 1.  **Clone the Repo**:
     ```bash
     git clone https://github.com/LordMahi19/ravintola-android.git
@@ -369,4 +341,3 @@ The entire backend and data layers are hosted on state-of-the-art cloud platform
     Run the application on an Android Virtual Device (AVD Emulator) or connect a physical device via USB debugging. Requires **API Level 24+ (Android 7.0 Nougat)**.
 
 ---
-*Developed as a modern, unified digital solution for enterprise restaurant services.*
